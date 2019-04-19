@@ -1,0 +1,16 @@
+PODS:
+  - GBCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - GBCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  GBCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GBCategoryKit: bf9839c97f034ddc5aef95c608c2bf2c35cf1ce3
+
+PODFILE CHECKSUM: 147c20ec24b643c8315e4e4c0b3e86287941f165
+
+COCOAPODS: 1.7.0.beta.3

@@ -1,0 +1,6 @@
+framework module GBCategoryKit {
+  umbrella header "GBCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
