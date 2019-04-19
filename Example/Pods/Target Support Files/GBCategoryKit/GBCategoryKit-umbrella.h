@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSMutableArray+HDSort.h"
 
 FOUNDATION_EXPORT double GBCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char GBCategoryKitVersionString[];
