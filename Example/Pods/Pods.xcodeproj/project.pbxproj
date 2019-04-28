@@ -12,6 +12,19 @@
 		466AE00978F4F37B65549143C0FD7A56 /* NSMutableArray+HDSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFB9C3EB9FBA4F689630D59516A501B /* NSMutableArray+HDSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C2B456847119CF905AEC9DF7132F0AF /* GBCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FE9349D88F6F0A3FB09CB76D7CB2FD /* GBCategoryKit-dummy.m */; };
 		7AF7CCDABB17E0B41FF3084EAD4397E3 /* NSMutableArray+HDSort.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D02A4821B00E9B2A3A0EAB84F171F1 /* NSMutableArray+HDSort.m */; };
+		84F9F2232275745A001B8052 /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9F2162275745A001B8052 /* NSData+AES.h */; };
+		84F9F2242275745A001B8052 /* private_key.pfx in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F2172275745A001B8052 /* private_key.pfx */; };
+		84F9F2252275745A001B8052 /* RSACodeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9F2182275745A001B8052 /* RSACodeTool.h */; };
+		84F9F2262275745A001B8052 /* GBEncodeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9F2192275745A001B8052 /* GBEncodeTool.h */; };
+		84F9F2272275745A001B8052 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9F21A2275745A001B8052 /* GTMBase64.h */; };
+		84F9F2282275745A001B8052 /* RSACodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F21B2275745A001B8052 /* RSACodeTool.m */; };
+		84F9F2292275745A001B8052 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F21C2275745A001B8052 /* NSData+AES.m */; };
+		84F9F22A2275745A001B8052 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F21D2275745A001B8052 /* public_key.der */; };
+		84F9F22B2275745A001B8052 /* rsaCert.der in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F21E2275745A001B8052 /* rsaCert.der */; };
+		84F9F22C2275745A001B8052 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 84F9F21F2275745A001B8052 /* private_key.p12 */; };
+		84F9F22D2275745A001B8052 /* GBEncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F2202275745A001B8052 /* GBEncodeTool.m */; };
+		84F9F22E2275745A001B8052 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9F2212275745A001B8052 /* GTMDefines.h */; };
+		84F9F22F2275745A001B8052 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F2222275745A001B8052 /* GTMBase64.m */; };
 		94C6CDCBAD39E8DC34142194D1E85027 /* Pods-GBCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C951D0CB83C4C49DEB21B26B344558 /* Pods-GBCategoryKit_Tests-dummy.m */; };
 		AC6AEF883A043784C222DA3BB3FC9559 /* Pods-GBCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B13F03B1F290E64F0863DABE683D50 /* Pods-GBCategoryKit_Example-dummy.m */; };
 		B5C483A77A5367F8B154BF0A7C5E8A6E /* Pods-GBCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6A666380E559F957DE0B3CD5C0FBFC /* Pods-GBCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,19 +69,32 @@
 		7C6C9B4D7235027822EAA46940BD5186 /* GBCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		7D3E6ADF53FCD63DB257D3B048349C5D /* GBCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		80942394AE21206C690CB5935D716E05 /* Pods-GBCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84F9F2162275745A001B8052 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		84F9F2172275745A001B8052 /* private_key.pfx */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.pfx; sourceTree = "<group>"; };
+		84F9F2182275745A001B8052 /* RSACodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACodeTool.h; sourceTree = "<group>"; };
+		84F9F2192275745A001B8052 /* GBEncodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBEncodeTool.h; sourceTree = "<group>"; };
+		84F9F21A2275745A001B8052 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		84F9F21B2275745A001B8052 /* RSACodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACodeTool.m; sourceTree = "<group>"; };
+		84F9F21C2275745A001B8052 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		84F9F21D2275745A001B8052 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		84F9F21E2275745A001B8052 /* rsaCert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsaCert.der; sourceTree = "<group>"; };
+		84F9F21F2275745A001B8052 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		84F9F2202275745A001B8052 /* GBEncodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBEncodeTool.m; sourceTree = "<group>"; };
+		84F9F2212275745A001B8052 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		84F9F2222275745A001B8052 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		8A7AC6040776BCC2DF33A7896C4A37AF /* Pods-GBCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91061B1AAE51DE58DEAFC770CE9C2330 /* Pods_GBCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBCategoryKit_Example.framework; path = "Pods-GBCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		985DB60DC17D16C7DB9DBE41C8D67D94 /* GBCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GBCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91061B1AAE51DE58DEAFC770CE9C2330 /* Pods_GBCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		985DB60DC17D16C7DB9DBE41C8D67D94 /* GBCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GBCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98BAAE74CD898C51D80382AEADAF124A /* GBCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBCategoryKit.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4D02A4821B00E9B2A3A0EAB84F171F1 /* NSMutableArray+HDSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+HDSort.m"; path = "GBCategoryKit/Classes/GBCategory/NSMutableArray+HDSort.m"; sourceTree = "<group>"; };
-		B6D4D1FB70D910FE113F634B3FF7466F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BAD6349800588C61B29C12E3CC1CAB22 /* GBCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBCategoryKit.framework; path = GBCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D4D1FB70D910FE113F634B3FF7466F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BAD6349800588C61B29C12E3CC1CAB22 /* GBCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C566F3890239D5443DBB59795AE8FABC /* GBCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBCategoryKit.xcconfig; sourceTree = "<group>"; };
 		C6C951D0CB83C4C49DEB21B26B344558 /* Pods-GBCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE3AA70367093378C2DB045D843A829F /* Pods_GBCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBCategoryKit_Tests.framework; path = "Pods-GBCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAF77C49394AE198115985E50107F38F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CE3AA70367093378C2DB045D843A829F /* Pods_GBCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF77C49394AE198115985E50107F38F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F63DB9FB6F33B46DE037AB9FEEEAA1AF /* Pods-GBCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA990A33A7E1A89AE7F7FB8717BE58C4 /* Pods-GBCategoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBCategoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +153,7 @@
 		41EFB47CD74358F52F8000AC50400212 /* GBCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
+				84F9F21522757459001B8052 /* GBEncodeTool */,
 				3DFB9C3EB9FBA4F689630D59516A501B /* NSMutableArray+HDSort.h */,
 				A4D02A4821B00E9B2A3A0EAB84F171F1 /* NSMutableArray+HDSort.m */,
 				F1CEC71B4738C58730644C9BCC50476D /* Pod */,
@@ -134,6 +161,27 @@
 			);
 			name = GBCategoryKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		84F9F21522757459001B8052 /* GBEncodeTool */ = {
+			isa = PBXGroup;
+			children = (
+				84F9F2192275745A001B8052 /* GBEncodeTool.h */,
+				84F9F2202275745A001B8052 /* GBEncodeTool.m */,
+				84F9F21A2275745A001B8052 /* GTMBase64.h */,
+				84F9F2222275745A001B8052 /* GTMBase64.m */,
+				84F9F2212275745A001B8052 /* GTMDefines.h */,
+				84F9F2162275745A001B8052 /* NSData+AES.h */,
+				84F9F21C2275745A001B8052 /* NSData+AES.m */,
+				84F9F21F2275745A001B8052 /* private_key.p12 */,
+				84F9F2172275745A001B8052 /* private_key.pfx */,
+				84F9F21D2275745A001B8052 /* public_key.der */,
+				84F9F21E2275745A001B8052 /* rsaCert.der */,
+				84F9F2182275745A001B8052 /* RSACodeTool.h */,
+				84F9F21B2275745A001B8052 /* RSACodeTool.m */,
+			);
+			name = GBEncodeTool;
+			path = GBCategoryKit/Classes/GBCategory/GBEncodeTool;
 			sourceTree = "<group>";
 		};
 		96B024D90C962935C8C76D14B851B5F5 /* Products */ = {
@@ -248,6 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				278DC6F568404F1D1C98DF0033CA6220 /* GBCategoryKit-umbrella.h in Headers */,
+				84F9F2232275745A001B8052 /* NSData+AES.h in Headers */,
+				84F9F2262275745A001B8052 /* GBEncodeTool.h in Headers */,
+				84F9F22E2275745A001B8052 /* GTMDefines.h in Headers */,
+				84F9F2252275745A001B8052 /* RSACodeTool.h in Headers */,
+				84F9F2272275745A001B8052 /* GTMBase64.h in Headers */,
 				466AE00978F4F37B65549143C0FD7A56 /* NSMutableArray+HDSort.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +378,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -358,6 +412,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F9F22A2275745A001B8052 /* public_key.der in Resources */,
+				84F9F2242275745A001B8052 /* private_key.pfx in Resources */,
+				84F9F22B2275745A001B8052 /* rsaCert.der in Resources */,
+				84F9F22C2275745A001B8052 /* private_key.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +442,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F9F2282275745A001B8052 /* RSACodeTool.m in Sources */,
+				84F9F22F2275745A001B8052 /* GTMBase64.m in Sources */,
 				4C2B456847119CF905AEC9DF7132F0AF /* GBCategoryKit-dummy.m in Sources */,
+				84F9F22D2275745A001B8052 /* GBEncodeTool.m in Sources */,
+				84F9F2292275745A001B8052 /* NSData+AES.m in Sources */,
 				7AF7CCDABB17E0B41FF3084EAD4397E3 /* NSMutableArray+HDSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,8 +522,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
